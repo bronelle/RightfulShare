@@ -23,4 +23,10 @@ Blockchain technology further reduces the opportunities for corruption by reduci
 - [ ] funciton to approve UBI distribution
 - [ ] number of approvals needed to reach consensus
 - [ ] change number of approvals for consensus
-- [ ] 
+
+
+## Roles
+
+- Admin: can add members, change roles, nominate and vote on payments
+- GBH_member: receive UBI, see news for Groblershoop
+- Contributer: download certificate of donation, see contribution path
