@@ -29,4 +29,4 @@ Blockchain technology further reduces the opportunities for corruption by reduci
 
 - Admin: can add members, change roles, nominate and vote on payments
 - GBH_member: receive UBI, see news for Groblershoop
-- Contributer: download certificate of donation, see contribution path
+- Contributer: download certificate of donation, see contribution path** but you can be a contributer and another role

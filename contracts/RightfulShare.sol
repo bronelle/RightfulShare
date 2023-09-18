@@ -3,7 +3,11 @@ pragma solidity 0.8.19;
 
 import "../node_modules/@openzeppelin/contracts/access/AccessControl.sol";
 
-contract RightfulShare {
+contract RightfulShare is AccessControl {
+
+    bytes32 public constant ADMIN_ROLE = keccak256("ADMIN_ROLE"); // Should use default admin role? 0x00
+    bytes32 public constant GBH_ROLE = keccak256("GBH_ROLE");
+    bytes32 public constant CONTRIBUTER_ROLE = keccak256("CONTRIBUTER_ROLE"); // seperate this functionality out?
 
     mapping(address => uint) public ids;
 
