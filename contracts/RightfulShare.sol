@@ -37,12 +37,20 @@ contract RightfulShare is AccessControl {
         return latestId;
     }
 
+    /*
+    functions:
+    */
+
     function nominatePool() onlyRole(ADMIN_ROLE) public returns (uint id) {
 
     }
 
     function approvePool() onlyRole(ADMIN_ROLE) public returns (bool approved) {
         
+    }
+
+    function editMember() onlyRole(ADMIN_ROLE) public returns (uint id) {
+
     }
 
 }
